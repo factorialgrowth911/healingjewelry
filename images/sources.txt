@@ -10,3 +10,10 @@ xoxo-gold-silver.jpg https://cdn.shopify.com/s/files/1/0736/7265/5062/files/Brac
 plain-6x-gold.png https://cdn.shopify.com/s/files/1/0736/7265/5062/files/Bracelet18.png?v=1770065035
 thick-2x-rose.png https://cdn.shopify.com/s/files/1/0736/7265/5062/files/Bracelet14_24b72fb5-c0a4-402d-83b7-2d285220c2a2.png?v=1777416310
 thick-2x-copper.png https://cdn.shopify.com/s/files/1/0736/7265/5062/files/2xmancooper.png?v=1770403794
+bf2-hero-gold-wrist.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/8ecc3868-6db5-45cd-9c82-a59040cbc0a0.jpg
+bf2-gift-box.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/d52765aa-0611-4f0e-9901-a668caf90b0f.jpg
+bf2-copper-slate.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/35e49240-598d-403f-8c0d-13c3036b06a7.jpg
+bf2-couple-coffee.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/f9dd21ed-0022-420b-9b88-5a3025c5baba.jpg
+bf2-stack-sweater.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/9b908ae5-8513-47ed-965e-6a828996e82a.jpg
+bf2-black-velvet.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/b747dab9-e0e6-4b13-8a89-9fa0b3170c09.jpg
+bf2-story-gold.jpg https://tempfile.aiquickdraw.com/models/nano-banana-2/a1e96c61-6d04-48e5-9237-85982031c2b1.jpg
