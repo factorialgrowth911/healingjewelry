@@ -1,0 +1,31 @@
+name: Fetch product images
+
+on:
+  push:
+    paths:
+      - images/sources.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download images listed in images/sources.txt
+        run: |
+          mkdir -p images/products
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            curl -fsSL --retry 3 -o "images/products/$name" "$url"
+            echo "downloaded $name"
+          done < images/sources.txt
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add images/products
+          git diff --cached --quiet || git commit -m "Add Gaia Gems product images [skip ci]"
+          git push
